@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Atletas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#f8f4f0] font-sans">
+    <header
+      class="max-xl:hidden top-0 w-full h-28 bg-[#314964] text-white shadow-md flex items-center justify-between z-10 px-12"
+    >
+      <a href="#" id="logo"
+        ><img src="../imgs/whitelogo.png" alt="" class="w-16"
+      /></a>
+      <nav class="flex gap-14 uppercase tracking-wider">
+        <a href="../index.html" class="hover:text-gray-300">Home</a>
+        <a href="peneiras.html" class="hover:text-gray-300">Peneiras</a>
+        <a href="historias.html" class="hover:text-gray-300">História</a>
+        <a href="comunidade.html" class="hover:text-gray-300">Comunidade</a>
+      </nav>
+      <a href="pages/login.html" id="header-icon" class="text-4xl"
+        ><i data-lucide="circle-user"></i
+      ></a>
+    </header>
+
+    <header
+      class="xl:hidden top-0 w-full h-28 bg-[#314964] text-white shadow-md flex items-center justify-between z-10 px-12"
+    >
+      <a href="#" id="logo"
+        ><img src="../imgs/whitelogo.png" alt="" class="w-16"
+      /></a>
+
+      <button><i data-lucide="menu"></i></button>
+    </header>
+
+    <div class="min-h-screen flex items-center justify-center p-5">
+      <div
+        class="w-full max-w-lg bg-white/80 backdrop-blur-md rounded-xl shadow-lg p-8"
+      >
+        <h1 class="text-2xl font-bold text-[#254259] mb-2">
+          Cadastre-se para participar
+        </h1>
+        <p class="text-[#314964] mb-6">
+          Preencha os campos abaixo para que possamos conhecer seu perfil
+          esportivo.
+        </p>
+        <form class="space-y-4">
+          <div>
+            <label class="block text-[#254259] font-medium mb-1"
+              >Nome completo</label
+            >
+            <input
+              type="text"
+              placeholder="Seu nome completo"
+              class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none"
+            />
+          </div>
+          <div>
+            <label class="block text-[#254259] font-medium mb-1"
+              >Data de nascimento</label
+            >
+            <input
+              type="date"
+              class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none"
+            />
+          </div>
+          <div>
+            <label class="block text-[#254259] font-medium mb-1"
+              >Cidade e estado de residência</label
+            >
+            <input
+              type="text"
+              placeholder="Ex: São Paulo, SP"
+              class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none"
+            />
+          </div>
+          <div>
+            <label class="block text-[#254259] font-medium mb-1">E-mail</label>
+            <input
+              type="email"
+              placeholder="Seu e-mail"
+              class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none"
+            />
+          </div>
+          <div>
+            <label class="block text-[#254259] font-medium mb-1">Número</label>
+            <input
+              type="text"
+              placeholder="Seu número"
+              class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none"
+            />
+          </div>
+          <div>
+            <label class="block text-[#254259] font-medium mb-1"
+              >Posição em Campo</label
+            >
+            <select
+              class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none"
+            >
+              <option>Escolha sua posição</option>
+              <option>Goleira</option>
+              <option>Defensora</option>
+              <option>Meio-campista</option>
+              <option>Atacante</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="block text-[#254259] font-medium mb-1"
+                >Altura</label
+              >
+              <input
+                type="text"
+                placeholder="Ex: 1,70m"
+                class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none"
+              />
+            </div>
+            <div>
+              <label class="block text-[#254259] font-medium mb-1">Peso</label>
+              <input
+                type="text"
+                placeholder="Ex: 60kg"
+                class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none"
+              />
+            </div>
+          </div>
+          <div>
+            <label class="block text-[#254259] font-medium mb-1"
+              >Observações</label
+            >
+            <textarea
+              placeholder="Informações adicionais..."
+              class="w-full p-3 rounded-md border border-[#cbd5e1] focus:ring-2 focus:ring-[#254259] outline-none resize-none h-24"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-[#254259] text-white p-3 rounded-md font-semibold hover:bg-[#314964] transition"
+          >
+            Enviar Cadastro
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

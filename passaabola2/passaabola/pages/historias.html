@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passa a bola - Histórias</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="font-rubik bg-[#e2e1d7aa] overflow-x-hidden flex flex-col min-h-screen"
+  >
+    <header
+      class="max-xl:hidden top-0 w-full h-28 bg-[#314964] text-white shadow-md flex items-center justify-between z-10 px-12"
+    >
+      <a href="#" id="logo"
+        ><img src="../imgs/whitelogo.png" alt="" class="w-16"
+      /></a>
+      <nav class="flex gap-14 uppercase tracking-wider">
+        <a href="../index.html" class="hover:text-gray-300">Home</a>
+        <a href="peneiras.html" class="hover:text-gray-300">Peneiras</a>
+        <a href="historias.html" class="hover:text-gray-300">História</a>
+        <a href="comunidade.html" class="hover:text-gray-300">Comunidade</a>
+      </nav>
+      <a href="pages/login.html" id="header-icon" class="text-4xl"
+        ><i data-lucide="circle-user"></i
+      ></a>
+    </header>
+
+    <header
+      class="xl:hidden top-0 w-full h-28 bg-[#314964] text-white shadow-md flex items-center justify-between z-10 px-12"
+    >
+      <a href="#" id="logo"
+        ><img src="../imgs/whitelogo.png" alt="" class="w-16"
+      /></a>
+
+      <button><i data-lucide="menu"></i></button>
+    </header>
+
+    <section
+      id="linhatempo"
+      class="flex flex-col items-center py-12 pl-10 pr-5 flex-1"
+    >
+      <h1 class="text-4xl font-bold mb-8">Linha do tempo</h1>
+      <div class="flex flex-col items-center w-full max-w-2xl gap-4">
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">1921</h2>
+              <p>O futebol feminino é proibido no Brasil por decreto</p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              Surgem as primeiras partidas oficiais de futebol feminino no
+              Brasil. Mesmo assim, a prática enfrentava resistência e
+              preconceito, e logo seria proibida.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">1941</h2>
+              <p>
+                Decreto de Vargas proíbe mulheres de jogar futebol no Brasil.
+              </p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              Com o governo de Getúlio Vargas, um decreto veta oficialmente que
+              mulheres joguem futebol, fazendo com que o esporte feminino
+              ficasse quase desaparecido no país por décadas.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">1979</h2>
+              <p>Revogação da proibição, mulheres podem jogar oficialmente.</p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              A proibição é finalmente revogada. A partir daí, mulheres podem
+              voltar a jogar oficialmente, marcando o início da reconstrução do
+              futebol feminino no Brasil.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">1991</h2>
+              <p>
+                Primeira Copa do Mundo Feminina da FIFA, realizada na China.
+              </p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              A FIFA realiza a primeira Copa do Mundo Feminina, na China. Esse
+              torneio dá visibilidade global para o futebol feminino e abre
+              caminho para o crescimento da modalidade.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">1996</h2>
+              <p>Futebol feminino estreia nas Olimpíadas de Atlanta.</p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              O futebol feminino faz sua estreia nas Olimpíadas, em Atlanta,
+              mostrando que o esporte feminino também merece espaço nos maiores
+              palcos internacionais.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">2007</h2>
+              <p>
+                Brasil chega à final da Copa do Mundo, com Marta em destaque.
+              </p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              O Brasil chega à final da Copa do Mundo, com a estrela Marta
+              brilhando. Esse é um dos momentos de maior projeção do futebol
+              feminino brasileiro no cenário mundial.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">2019</h2>
+              <p>Marta se torna a maior artilheira da história das Copas.</p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              Marta se torna a maior artilheira da história das Copas, somando
+              as competições masculinas e femininas, consolidando seu status
+              como ícone do esporte.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">2020</h2>
+              <p>
+                CBF anuncia igualdade de premiações e diárias entre seleções.
+              </p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              A CBF anuncia igualdade de premiações e diárias entre as seleções
+              masculina e feminina, um passo importante para a valorização das
+              atletas no país.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative flex flex-col w-full bg-white/70 rounded-xl shadow-md p-5"
+        >
+          <div
+            class="line hidden absolute left-[-15px] top-0 h-[120%] w-[1px] bg-black overflow-hidden"
+          ></div>
+          <div
+            class="absolute left-[-22px] top-0 w-4 h-4 bg-[#314964] rounded-full"
+          ></div>
+          <div class="flex justify-between items-center">
+            <div>
+              <h2 class="font-bold text-lg">2023</h2>
+              <p>Primeira Copa do Mundo Feminina com 32 seleções.</p>
+            </div>
+            <button class="toggle-btn bg-transparent p-2">
+              <i data-lucide="plus"></i>
+            </button>
+          </div>
+          <div class="extra-info hidden mt-3 text-sm text-gray-700">
+            <p>
+              A Copa do Mundo Feminina cresce ainda mais e acontece com 32
+              seleções pela primeira vez. A Espanha conquista o título,
+              mostrando a evolução e a competitividade do futebol feminino ao
+              redor do mundo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="w-full bg-[#314964] shadow-inner text-white mt-12">
+      <div
+        class="flex flex-col items-center justify-center p-5 gap-5 text-center"
+      >
+        <h2 class="text-xl font-bold">Integrantes da equipe</h2>
+        <p>Kathleen Lourenço | William Queiroz</p>
+        <p>Daniel Duarte | Victor Henry</p>
+        <p>João Vitor</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+
+      document.querySelectorAll(".toggle-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const item = btn.closest(".relative");
+          const extra = item.querySelector(".extra-info");
+          const icon = btn.querySelector("i");
+          extra.classList.toggle("hidden");
+          icon.setAttribute(
+            "data-lucide",
+            extra.classList.contains("hidden") ? "plus" : "minus"
+          );
+          lucide.createIcons();
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Teste</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex items-center justify-center min-h-screen bg-[#e2e1d7aa]">
+    <header class="fixed top-0 w-full h-28 bg-[#314964] text-white shadow-md flex items-center justify-between z-10 px-12">
+    <a href="#" id="logo"><img src="../imgs/whitelogo.png" alt="" class="w-16"></a>
+    <nav class="flex gap-14 uppercase tracking-wider">
+      <a href="../index.html" class="hover:text-gray-300">Home</a>
+      <a href="peneiras.html" class="hover:text-gray-300">Peneiras</a>
+      <a href="historias.html" class="hover:text-gray-300">História</a>
+      <a href="comunidade.html" class="hover:text-gray-300">Comunidade</a>
+    </nav>
+    <a href="pages/login.html" id="header-icon" class="text-4xl"><i data-lucide="circle-user"></i></a>
+    </header>
+
+  <div class="bg-white p-8 rounded-2xl shadow-md w-80">
+    <h1 class="text-2xl font-bold mb-6 text-center">Login</h1>
+    <form id="loginForm" class="flex flex-col gap-4">
+      <input type="text" id="username" placeholder="Usuário" class="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
+      <input type="password" id="password" placeholder="Senha" class="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
+      <button type="submit" class="bg-[#314964] text-white font-bold py-2 rounded-md hover:bg-[#24384f]">Entrar</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+      e.preventDefault(); 
+      const user = document.getElementById('username').value;
+      const pass = document.getElementById('password').value;
+
+      if(user === "teste" && pass === "1234") {
+        alert("Login com sucesso!");
+      } else {
+        alert("Usuário ou senha incorretos!");
+      }
+    });
+  </script>
+
+</body>
+</html>

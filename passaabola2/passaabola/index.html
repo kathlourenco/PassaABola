@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passa a bola</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-[#e2e1d7aa] font-rubik relative overflow-x-hidden">
+    <header
+      class="max-xl:hidden top-0 w-full h-28 bg-[#314964] text-white shadow-md flex items-center justify-between z-10 px-12"
+    >
+      <a href="#" id="logo"
+        ><img src="imgs/whitelogo.png" alt="" class="w-16"
+      /></a>
+      <nav class="flex gap-14 uppercase tracking-wider">
+        <a href="home" class="hover:text-gray-300">Home</a>
+        <a href="pages/peneiras.html" class="hover:text-gray-300">Peneiras</a>
+        <a href="pages/historias.html" class="hover:text-gray-300">História</a>
+        <a href="pages/comunidade.html" class="hover:text-gray-300"
+          >Comunidade</a
+        >
+      </nav>
+      <a href="pages/login.html" id="header-icon" class="text-4xl"
+        ><i data-lucide="circle-user"></i
+      ></a>
+    </header>
+
+    <header
+      class="xl:hidden top-0 w-full h-28 bg-[#314964] text-white shadow-md flex items-center justify-between z-10 px-12"
+    >
+      <a href="#" id="logo"
+        ><img src="imgs/whitelogo.png" alt="" class="w-16"
+      /></a>
+
+      <button><i data-lucide="menu"></i></button>
+    </header>
+
+    <div class="h-30"></div>
+
+    <section class="flex justify-between w-full my-[80px]">
+      <div
+        id="slideshow"
+        class="max-xl:w-full max-xl:rounded-none flex w-[70%] h-[70vh] bg-gradient-to-br from-[#e4efff] to-[#254259] rounded-r-[250px] shadow-lg"
+      >
+        <img
+          src="imgs/bola.png"
+          id="bola"
+          class="max-xl:hidden w-2/5 object-cover"
+        />
+        <div
+          class="textos-slideshow flex flex-col justify-center h-full text-center lx:text-right px-[35px] lx:pr-24 text-white"
+        >
+          <h2 class="text-[40px] lx:text-[60px] font-bold">Passa a Bola</h2>
+          <p class="text-[20px] leading-[180%] tracking-wide">
+            Onde cada jogadora transforma talento em história, cada gol é
+            resistência, e cada passe constrói o futuro do futebol feminino.
+          </p>
+        </div>
+      </div>
+
+      <div
+        id="banner-right"
+        class="max-xl:hidden w-[30%] h-[70vh] text-right opacity-5"
+      >
+        <img
+          src="imgs/soccer-outline-half.png"
+          alt=""
+          class="ml-auto h-full pointer-events-none select-none"
+        />
+      </div>
+    </section>
+
+    <footer class="w-full bg-[#314964] shadow-inner text-white relative z-10">
+      <div
+        class="flex flex-col items-center justify-between p-5 gap-4 text-center"
+      >
+        <h2 class="text-xl font-bold">Integrantes da equipe</h2>
+        <p>Kathleen Lourenço | William Queiroz</p>
+        <p>Daniel Duarte | Victor Henry</p>
+        <p>João Vitor</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
