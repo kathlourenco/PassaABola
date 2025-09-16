@@ -12,7 +12,5 @@ para troca de experiências entre as jogadoras e entusiastas desse esporte.
 
 
 # Tecnologias Usadas
-Tailwind CSS
- - Framework de CSS utilitário para estilização rápida e eficiente.   
-HTML
- - Linguagem de marcação para estruturar o conteúdo da web.
+Tailwind CSS - Framework de CSS utilitário para estilização rápida e eficiente.     
+HTML - Linguagem de marcação para estruturar o conteúdo da web.
